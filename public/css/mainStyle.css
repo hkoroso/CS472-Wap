@@ -1,114 +1,114 @@
-/* style.css */
-nav li{
-    display: inline;
+    /* style.css */
+    nav li{
+        display: inline;
 
+        
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+    }
     
-}
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-  }
-  
-  nav li {
-    float: left;
-  }
-  
-  nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: black;
-  }
-
-
-.profile_picture {
-    text-align: center;
-}
-
-.profile_picture img {
-    width: 250px;
-    height: 250px;
-    border-radius: 150px;
-}
-
-body{
-
-    background: linear-gradient(
-        90deg, rgb(237, 230, 227) 0%, rgb(236, 224, 230) 35%, rgb(250, 251, 255) 100%)
+    nav li {
+        float: left;
+    }
     
-}
-
-footer{
-    background: #ffffff73;
-    display: block;
-    margin-right: auto;
-
-}
-
-
-#name{
-    font: normal small-caps bold 40px/30px Courier, serif;
-    text-align: center;
-}
-
-#about-me{
-    font: normal small-caps bold 40px/30px Tahoma, serif;
-    text-align: center;
-    color: #f8faff;
-}
-
-
-abbr{
-    color: #b90120; 
-}
-
-.mr-l-5p {
-    margin-left: 5%;
-}
-
-.mr-r-5p {
-    margin-right: 5%;
-}
-
-.mr-r-10p {
-    margin-right: 5%;
-}
-
-.w-30p {
-    width:30%;
-}
-
-.w-45p {
-    width:45%;
-}
-
-.w-50p {
-    width:50%;
-}
-
-.w-100p {
-    width:100%;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.inline {
-    display: inline;
-}
-li a:hover {
-    background-color: rgb(226, 123, 246); }
-
-    li a{ text-decoration:dotted}
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
     
-   
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: black;
+    }
+
+
+    .profile_picture {
+        text-align: center;
+    }
+
+    .profile_picture img {
+        width: 250px;
+        height: 250px;
+        border-radius: 150px;
+    }
+
+    body{
+
+        background: linear-gradient(
+            90deg, rgb(237, 230, 227) 0%, rgb(236, 224, 230) 35%, rgb(250, 251, 255) 100%)
+        
+    }
+
+    footer{
+        background: #ffffff73;
+        display: block;
+        margin-right: auto;
+
+    }
+
+
+    #name{
+        font: normal small-caps bold 40px/30px Courier, serif;
+        text-align: center;
+    }
+
+    #about-me{
+        font: normal small-caps bold 40px/30px Tahoma, serif;
+        text-align: center;
+        color: #f8faff;
+    }
+
+
+    abbr{
+        color: #b90120; 
+    }
+
+    .mr-l-5p {
+        margin-left: 5%;
+    }
+
+    .mr-r-5p {
+        margin-right: 5%;
+    }
+
+    .mr-r-10p {
+        margin-right: 5%;
+    }
+
+    .w-30p {
+        width:30%;
+    }
+
+    .w-45p {
+        width:45%;
+    }
+
+    .w-50p {
+        width:50%;
+    }
+
+    .w-100p {
+        width:100%;
+    }
+
+    .inline-block {
+        display: inline-block;
+    }
+
+    .inline {
+        display: inline;
+    }
+    li a:hover {
+        background-color: rgb(226, 123, 246); }
+
+        li a{ text-decoration:dotted}
+        
+    
