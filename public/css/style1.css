@@ -1,0 +1,165 @@
+body{
+    background: linear-gradient(90deg, rgb(237, 230, 227) 0%, rgb(236, 224, 230) 35%, rgb(250, 251, 255) 100%)
+}
+body{
+    margin: 20px;
+    padding: 20px;
+    font-size: 11pt;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #404040;
+}
+
+section{
+    background: #ffffff73;
+    padding: 15px;
+    margin: 10px;
+}
+.foo{
+    display: block;
+
+}
+
+.header {
+    background-image: url('../resource/images/header.jpg');
+    text-align: center;
+}
+
+.header-img {
+    height: 300px; 
+    border-radius: 50%;
+}
+
+/* .red{
+    color: #eb1c3a;
+} */
+
+.blue{
+    color: #1b1093;
+}
+
+#name{
+    font: normal small-caps bold 40px/30px Courier, serif;
+    text-align: center;
+}
+
+#about-me{
+    font: normal small-caps bold 40px/30px Tahoma, serif;
+    text-align: center;
+    color: #05256a;
+}
+
+
+
+abbr{
+    color: #b90120; 
+}
+
+.mr-l-5p {
+    margin-left: 5%;
+}
+
+.mr-r-5p {
+    margin-right: 5%;
+}
+
+.mr-r-10p {
+    margin-right: 5%;
+}
+
+.w-30p {
+    width:30%;
+}
+
+.w-45p {
+    width:45%;
+}
+
+.w-50p {
+    width:50%;
+}
+
+.w-100p {
+    width:100%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+nav ul li {
+    display: inline;
+}
+li a:hover {
+    background-color: rgb(231, 21, 193); }
+
+    li a{ text-decoration: none}
+    /* .footer {
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-size: 11pt;
+    } */
+
+    nav li{
+        display: inline;
+
+        
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+    }
+    
+    nav li {
+        float: left;
+    }
+    
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: black;
+    }
+    li a:hover {
+        background-color: rgb(226, 123, 246); }
+
+        li a{ text-decoration:dotted}
+        .foo{
+            display: block;
+        color: white;
+        text-align: right;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+        .fot{
+         display: inline-block;
+        color: rgb(114, 16, 16);
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+        text-align: center; 
+        font-size: 9pt;
+         font-family: Verdana
+        }
+        
+        .right{
+            text-align: right;}
+            .ima{
+            float: right;
+         }   

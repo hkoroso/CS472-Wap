@@ -110,5 +110,7 @@
         background-color: rgb(226, 123, 246); }
 
         li a{ text-decoration:dotted}
-        
+        .ima{
+            float: right;
+         } 
     
