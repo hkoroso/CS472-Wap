@@ -85,3 +85,29 @@ li a:hover {
     li a:hover {
         background-color: black;
     }
+    article h4, pre{
+        text-align: center;
+    }
+    .aline{
+        display:inline-flex;
+        flex:8;
+        width:100vw;
+        margin-left:2vw;
+       
+    }
+    .aline1{
+    display:block;
+    flex:3;
+    
+    }
+    .aline2{
+        flex:3.5;
+    }
+    .aline3{
+        display:inline-flex;
+        flex:1.5;
+        
+    }
+    .ima{
+        margin-right:2vw;
+    }

@@ -113,4 +113,7 @@
         .ima{
             float: right;
          } 
-    
+    article h4, pre{
+        text-align: center;
+    }
+   

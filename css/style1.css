@@ -162,4 +162,7 @@ li a:hover {
             text-align: right;}
             .ima{
             float: right;
-         }   
+         }
+         article h4, pre{
+            text-align: center;
+        }
