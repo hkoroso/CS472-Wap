@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/Labs/images/HTML5_logo_and_wordmark.svg.png">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>     
+    <section id="title">
+        <h2 id="name" style="text-align: center; font: normal small-caps bold 30px/5px Courier, serif;">Retrieve your grade        
+        </h2>
+    </section>
+    <form method="GET" action="http://mumstudents.org/params.php" autocomplete="“on”">
+        <div id="form-container" class="center mr-lr-30p p-2">
+            <div class="row">
+                <div class="col-75">
+                    <label for="name" style="font-size: medium ; font-weight: 500;">Name:</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="name" placeholder="Your Name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <label for="sudentId" style="font-size: medium ; font-weight: 500;">Student ID:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="sudentId" name="sudentId" placeholder="Your Student ID..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <label for="assignment"style="font-size: medium ; font-weight: 500;">Entry:</label>
+                </div>
+                <div class="col-75 left">
+                    <div class="col-25">
+                        <input type="radio" name="entry" id="Feb-2023">
+                        <label for="Feb-2023">Feb 2023</label>
+                    </div>
+                    <div class="col-25">
+                        <input type="radio" name="entry" value="May 2023">
+                        <label for="May-2023">May 2023</label>
+                    </div>
+                    <div class="col-25">
+                        <input type="radio" name="entry" value="Aug 2023">
+                        <label for="Aug-2023">Aug-2023</label>
+                    </div>
+                    <div class="col-25">
+                        <input type="radio" name="entry" value="Nov 2023">
+                        <label for="Nov-2023">Nov-2023</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <label for="assignment"style="font-size: medium ; font-weight: 500;">Assignment:</label>
+                </div>
+                <div class="col-75">
+                    <select>
+                        <option value="Assignment-1">Assignment-1</option>
+                        <option value="Assignment-2">Assignment-2</option>
+                        <option value="Assignment-3">Assignment-3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="privacy"style="font-size: medium ; font-weight: 500;">Privacy:</label>
+                </div>
+                <div class="col-75 left">
+                    <div class="col-50">
+                        <input type="checkbox" id="privacy" name="privacy" value="privacy">
+                        <label for="privacy"style="font-size: medium ; font-weight: 500;">Accept All Terms!</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <input type="submit" value="Get Grade!">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    
+    <footer>
+        <div>
+      
+        </div>
+            <pre id="copy_text">
+                   Copyright &copy; 2023 Gano Koroso     
+                   All rights reserved      
+            </pre>  
+        <a style="border: 2; float: right; color: black; margin-left: 2in;" href="./index.html">Home</a>
+    </footer>
+</body>
+</html>

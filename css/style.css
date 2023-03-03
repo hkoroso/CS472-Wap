@@ -1,0 +1,213 @@
+body{
+ background-image: url(/Labs/images/Arm-knitting-yarn-notTHEBLACKSHEEP-Chunky-Yarn-b5e45b2.jpeg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;  
+ background-size: cover;
+ 
+
+
+ background-repeat:repeat;
+
+   
+}
+#form-container {
+    border: 2px #c9147e solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0);
+    
+}
+section {
+    background: rgb(26, 25, 25);
+    padding: 10px;
+    margin: 10px;
+}
+h2{
+    color: #fdfbfb;
+}
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #c506b5;
+    color: white;
+    padding: 12px 20px;
+    border:#8e2cbb;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #b40f83;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #c001e6;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-50 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#title {
+    background:black;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.red {
+    color: #eb1c3a;
+}
+
+.blue {
+    color: #c70aae;
+}
+
+.p-2 {
+    padding: 2%;
+}
+
+.p-20 {
+    padding: 20%;
+}
+
+.p-lr-20 {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.mt-5p {
+    margin-top: 5%;
+}
+
+.mb-2p {
+    margin-bottom: 2%;
+}
+
+.mb-5p {
+    margin-bottom: 10%;
+}
+
+.mb-10p {
+    margin-bottom: 10%;
+}
+
+.mb-28p {
+    margin-bottom: 28%;
+}
+
+.mr-l-5p {
+    margin-left: 5%;
+}
+
+.mr-r-5p {
+    margin-right: 5%;
+}
+
+.mr-r-10p {
+    margin-right: 5%;
+}
+
+.mr-lr-20p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.mr-lr-30p {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.mr-lr-40p {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.w-10p {
+    width: 10%;
+}
+
+.w-30p {
+    width: 30%;
+}
+
+.w-45p {
+    width: 45%;
+}
+
+.w-50p {
+    width: 50%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+.ima{
+    float: right;
+    margin: 0%;
+ } 
+article h4, pre{
+text-align: right;
+margin: 0%;
+padding: 0;
+}
+pre{
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+label{
+    color: rgba(68, 3, 77, 0.856);
+}

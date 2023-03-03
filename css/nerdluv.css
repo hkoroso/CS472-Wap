@@ -1,0 +1,246 @@
+body{
+  background-image: url(/Labs/images/HD-purple-wallpaper-image-to-use-as-background-132.jpeg);
+}
+#form-container {
+  border: 2px #c9147e solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0);
+  margin-top: 4%;
+}
+
+  .col-75 {
+
+    float: left;
+    margin-top: 6px;
+}
+
+section {
+  background: rgb(26, 25, 25);
+  padding: 10px;
+  margin: 10px;
+}
+h2{
+  color: #fdfbfb;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type=text],
+select,
+textarea {
+    width: 30%;
+    padding: 8px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
+    resize: vertical;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(178, 109, 209);
+}
+.container {
+  border-radius: 5px;
+  background-color: #c001e6;
+  padding: 20px;
+  padding-top: 500px;
+}
+
+.center {
+  text-align:center;
+ 
+}
+
+.red {
+  color: #eb1c3a;
+}
+
+.blue {
+  color: #c70aae;
+}
+
+.p-2 {
+  padding: 2%;
+}
+
+.p-20 {
+  padding: 20%;
+}
+
+.p-lr-20 {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.mt-5p {
+  margin-top: 5%;
+}
+
+.mb-2p {
+  margin-bottom: 2%;
+}
+
+.mb-5p {
+  margin-bottom: 10%;
+}
+
+.mb-10p {
+  margin-bottom: 10%;
+}
+
+.mb-28p {
+  margin-bottom: 28%;
+}
+
+.mr-l-5p {
+  margin-left: 5%;
+}
+
+.mr-r-5p {
+  margin-right: 5%;
+}
+
+.mr-r-10p {
+  margin-right: 5%;
+}
+
+.mr-lr-20p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.mr-lr-30p {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.mr-lr-40p {
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.w-10p {
+  width: 10%;
+}
+
+.w-30p {
+  width: 30%;
+}
+
+.w-45p {
+  width: 45%;
+}
+
+.w-50p {
+  width: 50%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+.ima{
+  float: right;
+  margin: 0%;
+} 
+article h4, pre{
+text-align: right;
+margin: 0%;
+padding: 0;
+}
+pre{
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+label{
+  color: rgba(68, 3, 77, 0.856);
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#title {
+  background:black;
+  padding: 5px;
+  margin: 10px;
+}
+
+
+
+.left {
+  text-align: left;
+}
+#min{
+  width: 255;
+}
+
+article h4, pre{
+    text-align: center;
+}
+.aline{
+    display:inline-flex;
+    flex:8;
+    width:100vw;
+    margin-left:2vw;
+   
+}
+.aline1{
+display:block;
+flex:3;
+
+}
+.aline2{
+    flex:3.5;
+}
+.aline3{
+  margin-top: 20%;
+
+    display:inline-flex;
+  float: right;}
+  pre{
+    float:right;
+    margin-top: 15%;
+  }
+  nav li{
+    display: inline;
+
+    
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: black;
+}
