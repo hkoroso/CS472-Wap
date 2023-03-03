@@ -184,12 +184,10 @@ label{
 .left {
   text-align: left;
 }
-#min{
-  width: 255;
-}
 
-article h4, pre{
-    text-align: center;
+article h4{
+    text-align: right;
+  
 }
 .aline{
     display:inline-flex;
