@@ -1,5 +1,8 @@
 body{
-  background-image: url(/Labs/images/HD-purple-wallpaper-image-to-use-as-background-132.jpeg);
+  background-image: url(/Labs/images/reply.jpeg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;  
+ background-size: cover; 
 }
 #form-container {
   border: 2px #c9147e solid;
@@ -187,7 +190,7 @@ label{
 
 article h4{
     text-align: right;
-  
+   margin-top: 10%;
 }
 .aline{
     display:inline-flex;
@@ -211,7 +214,7 @@ flex:3;
   float: right;}
   pre{
     float:right;
-    margin-top: 15%;
+    margin-top: 5%;
   }
   nav li{
     display: inline;
