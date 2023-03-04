@@ -1,0 +1,37 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body,
+input,
+button {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 20pt;
+}
+
+div {
+    margin: 0.5em;
+}
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #006e7c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #0a3812}
+  
+  button:active {
+    background-color: #6e3296;
+    box-shadow: 0 5px rgb(0, 33, 139);
+    transform: translateY(4px);
+  }

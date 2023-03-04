@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tip Calculator</title>
+    <link href="./css/tip.css" type="text/css" rel="stylesheet"> 
+    
+</head>
+<body>
+    <h1>
+        <img id="logo" src="./images/calc.jpg" alt="cal"> Tip Calculator
+    </h1>
+
+    <div>
+        <label><input id="subtotal" type="text" /> $ Subtotal</label>
+    </div>
+
+    <div>
+        <label><input id="tip" type="text" /> % Tip</label>
+    </div>
+
+    <div>
+        <button id="btn" onclick="calcTip();">Calculate Tip</button>
+    </div>
+
+    <hr />
+
+    <div>
+        <h2>Your total:</h2>
+        <p id="total">$0.00</p>
+    </div>
+
+    <br />
+    <footer>
+        <div style="text-align: center; font-size: 9pt; font-family: Verdana; color: rgb(23, 3, 202);">
+
+            <a href="https://validator.w3.org/check?url=https://hkoroso.github.io/CS472-Wap/calculator.html">
+                <img alt="link image" src="./images/w3c-html5-logo.png">
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://hkoroso.github.io/CS472-Wap/css/tip.css">
+                <img alt="link image" src="./images/w3c-css.png">
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://hkoroso.github.io/CS472-Wap/js/index.js">
+                <img src="/Labs/images/jslint.png" alt="JavaScript Lint">
+            </a>
+            <hr style="text-align: center; width: 50%;"> Copyright ©2023 Gano Koroso. All rights reserved.<br>
+            <p>Fairfield, Iowa, USA</p>
+        </div>
+    </footer>
+
+   <script src="./js/index.js"></script>
+
+</body>
+
+</html>

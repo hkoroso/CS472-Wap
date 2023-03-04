@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/task.css" type="text/css" rel="stylesheet"> 
+    <title>TASK</title>
+</head>
+    <fieldset class="container" > 
+        <body onload="getTask();"><h3>Task List</h3>
+            
+            <div class="row">
+                <section id="products">
+                        <div class="col-75">
+                            <label for="name">Task</label><br>
+                             <input type="text" id="task" name="task">
+                         </div>
+            
+                         <div class="col-75">
+                            <button id="addTask" onclick="addTask();">Add Task</button>
+
+                         </div>
+
+                          <div class="col-75">
+                           
+                            <button id="clearTask" onclick="clearTask();">Clear Task</button>
+                         </div>
+                </section>
+                <section class="aline1">
+                        <div class="col-75"> 
+                            <label for="fname">Task list:</label><br>  
+
+                            <textarea  id="taskList">
+                                 </textarea> 
+                        </div>
+                </section>
+                   
+        </div>
+        <script src="./js/task.js"></script>
+        <footer class="footer">
+            <div style="text-align: center; font-size: 9pt; font-family: Verdana; color: rgb(25, 21, 226);">
+    
+                <a href="https://validator.w3.org/check?url=https://hkoroso.github.io/CS472-Wap/calc.html">
+                    <img alt="link image" src="./images/w3c-html5-logo.png">
+                </a>
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://hkoroso.github.io/CS472-Wap/css/tip.css">
+                    <img alt="link image" src="./images/w3c-css.png">
+                </a>
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://hkoroso.github.io/CS472-Wap/js/index.js">
+                    <img src="/Labs/images/jslint.png" alt="JavaScript Lint">
+                </a>
+                <hr style="text-align: center; width: 50%;"> Copyright ©2023 Gano Koroso. All rights reserved.<br>
+                <p>Fairfield, Iowa, USA</p>
+            </div>
+        </footer>
+        
+</body>
+
+</fieldset>
+</html>

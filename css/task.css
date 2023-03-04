@@ -1,0 +1,81 @@
+.col-75 {
+   
+ margin-top: 4px;
+    
+}
+body{
+    background-image: url(/Labs/images/reply.jpeg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;  
+   background-size: cover; 
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    margin-top: 10%;
+
+    margin-left: 25%;
+    box-sizing: border-box;
+    box-shadow: rgb(122, 106, 136);
+    width: 50%;
+    border-radius: 5px;
+    background-color: #a491a8;
+    padding: 20px;
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-50 {
+    
+    width: 75%;
+    margin-top: 4px;
+    float: 50%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  
+  #buttons .btn {
+    margin-left: 25px;
+  }
+
+  input{
+
+border: 2px #c9147e solid;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0);
+width: 67%;
+
+
+  }
+  
+button{
+border: 2px #c9147e solid;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0);
+width: 70%;
+}
+
+section{
+    display: inline flex;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
