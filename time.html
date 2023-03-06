@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script >
+        "use strict";
+       
+        setTimeout(booyah1, 2000);
+        setTimeout(booyah2(), 2000);
+
+
+        function booyah1(){
+          return  alert("BOOYAH !") 
+        }
+
+        function booyah2(){
+           return alert("BOOYAH 2 !") 
+        }
+    </script>
+</head>
+<body>
+
+    <ol>
+        <li>What is the difference between the following 2 statements
+            <dl>
+                <dt>setTimeout(booyah, 2000);</dt>
+                <dd>This one passes the function itself to setTimeoout. It calls booyah after 2 seconds. </dd>
+                <dt>setTimeout(booyah(), 2000);</dt>
+                <dd>
+                    This one calls booyah and passes the result to setTimeout. It calls the return of booyah (if it is a function) after 2 seconds..</dd>
+            </dl>
+        </li>
+        <li>
+            What do the following 2 alert display (answer without running the code)?
+            <pre>
+                var myfunc = function(a, x) {
+                    return a * x;
+                };
+                var x = myfunc(2, 3);
+                var y = myfunc;
+                alert(x);
+                alert(y(2,3)); 
+            </pre>
+            <dl>
+                <dt>
+                    the two statement dispaly the same result of 6.
+                </dt>
+            </dl>
+        </li>
+        <li>
+            Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that says "BOOYAH!"
+            <p>
+                setTimeout(booyah1, 2000); <br>
+                setTimeout(booyah2(), 2000);
+            </p>
+        </li>
+        <li>
+            What is Unobtrusive Javascript? What is the practical application of Unobtrusive Javascript (and the reasons for using it)?
+            <dl>
+                <dt>
+                    Separation of content (HTML) and behavior (Javascript) 
+
+                        Placing scripts in external files has some advantages: 
+
+                        It separates HTML and code 
+
+                        It makes HTML and JavaScript easier to read and maintain 
+
+                        Cached JavaScript files can speed up page loads 
+                </dt>
+            </dl>
+        </li>
+    </ol>
+</body>
+</html>
