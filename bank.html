@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+    <link rel="stylesheet" href="./css/bank.css">
+
+</head>
+<body>
+    <nav> 
+        <ul id="joj">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="https://www.wellsfargo.com/investing-wealth/">investing-wealth</a></li>
+        <li><a href="https://www.wellsfargo.com/biz/">Small Business</a></li>
+        <li><a href="https://www.wellsfargo.com/about/">About Us</a></li>
+
+    </ul>
+    </nav> 
+    <div id="createAcc">
+    <div class="col-75"> 
+        <label>Account name  :<select style="width:200px; border-radius:2px;
+            box-sizing: border-box; padding: 12px 20px;" id="accountId"type="text" >
+            <option  value="Saving">Saving</option>
+            <option value="checking">checking</option>
+            <option value="Business">Business</option>
+        </select>
+        </label><br>
+        
+       
+       <label>Deposit amount:<input id="depositId" type="text"></label> 
+       
+     </div>
+    <div class="button">
+    
+        <button id="new-btn" onclick="createaccount()">Create new  account</button>
+        <button id="deposit-btn" onclick="deposit()">Deposit</button>
+        <button id="debit-btn" onclick="debit()">Debit</button>
+
+    </div>
+     <div > 
+        <label for="fname" >Bank Account:</label><br>
+         <textarea  cols="40" rows="5" id="taskList"></textarea> 
+    </div>
+</div>
+<div id="depoTran"> 
+    <h1>Deposit</h1>
+    <select id="depoAccount" > 
+    </select> 
+    <label>Deposit<input type="tex" id="depo_amount"></label><br>
+    <button type="submit" id="btnSaveDeposit">Submit</button>
+</div>
+
+<div id="debitTran"> 
+    <h1>Debit</h1>
+        <select id="debitAccount" > 
+        </select> 
+        <label>Debit <input type="tex" id="debit_amount"></label><br>
+        <button type="submit" id="btnSaveDebit">Submit</button>
+     
+</div>
+<script src="./js/bank.js"></script>
+<footer>
+    <p>Author: Gano Koroso<br>
+    <a href="./index.html">Home</a></p>
+  </footer>
+</body>
+</html>
