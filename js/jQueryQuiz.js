@@ -10,4 +10,13 @@ $(function(){
 $(function(){
     $("p").append("YES")
 });
+function logger ()
+{
+return function(){
+    return function(){
+        console.log('message')
+    }
+}
 
+}
+logger()
